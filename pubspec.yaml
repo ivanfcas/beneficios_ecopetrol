@@ -1,0 +1,31 @@
+name: beneficios_ecopetrol
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# DEPENDENCIAS:
+# Aquí se añaden paquetes de terceros.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paquete para abrir URLs, lo usaremos para las descargas de formatos.
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # ASSETS (RECURSOS):
+  # Aquí se registran las imágenes para que la app pueda usarlas.
+  # Asegúrate de crear esta estructura de carpetas en tu proyecto.
+  assets:
+    - assets/images/
